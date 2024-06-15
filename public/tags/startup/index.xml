@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Startup on IPAP Consulting</title>
-    <link>https://ipap.tech/tags/startup/</link>
+    <link>http://localhost:1313/tags/startup/</link>
     <description>Recent content in Startup on IPAP Consulting</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipap.tech/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/startup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Startups and Fear of Success</title>
-      <link>https://ipap.tech/_post/20240612_startup-fear-of-success/</link>
+      <link>http://localhost:1313/_post/20240612_startup-fear-of-success/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://ipap.tech/_post/20240612_startup-fear-of-success/</guid>
+      <guid>http://localhost:1313/_post/20240612_startup-fear-of-success/</guid>
       <description>The fear of success is a common phenomenon among startup founders. It is the fear of achieving one&amp;rsquo;s goals and realizing one&amp;rsquo;s potential. This fear can be paralyzing and prevent entrepreneurs from taking the necessary risks to grow their businesses. In this article, we will explore the causes of the fear of success and how to overcome it.&#xA;Causes of the Fear of Success The fear of success can be caused by a variety of factors, including:</description>
     </item>
   </channel>
