@@ -1,0 +1,119 @@
+baseurl = "https://ipap.tech/"
+DefaultContentLanguage = "en"
+title = "IPAP Consulting"
+# Using theme as git submodule
+theme = "beautifulhugo"
+# Or when using theme as hugo module
+# theme = "github.com/halogenica/beautifulhugo"
+pygmentsStyle = "default"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#disqusShortname = "ceesaxp-comments"
+googleAnalytics = "GA4427204460"
+
+[Params]
+homeTitle = "Not Your Typical Consultancy"
+subtitle = "Unlock the potential of your business, discover new opportunities and achieve most challenging goals."
+mainSections = ["post", "posts"]
+# Expecting square dimensions for logo
+logo = "images/ipap-logo.png"
+favicon = "images/icons/favicon.ico"
+dateFormat = "Jan 2, 2006"
+commit = false
+rss = true
+comments = true
+readingTime = true
+wordCount = true
+useHLJS = true
+socialShare = true
+delayDisqus = true
+showRelatedPosts = true
+hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+gcse = "06333e0dd02f7439f"
+# disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+
+[[Params.bigimg]]
+src = "img/triangle.jpg"
+desc = "Triangles"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[[Params.author]]
+# Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+name = "Andrei Popov"
+website = "ceesaxp.org"
+email = "andrei@ceessaxp.org"
+facebook = "ceesaxp"
+github = "Ceesaxp"
+#gitlab = "username"
+#bitbucket = "username"
+twitter = "ceesaxp"
+reddit = "ceesaxp"
+linkedin = "andreipopov"
+#xing = "username"
+#stackoverflow = "users/XXXXXXX/username"
+#snapchat = "username"
+instagram = "ceesaxp"
+#youtube = "user/username"                            # or channel/channelname
+#soundcloud = "username"
+#spotify = "username"
+#bandcamp = "username"
+#itchio = "username"
+#vk = "username"
+#paypal = "username"
+telegram = "ceesaxp"
+#500px = "username"
+#codepen = "username"
+#mastodon = "url"
+#kaggle = "username"
+#weibo = "username"
+#slack = "username"
+medium = "ceesaxp"
+#discord = "invite code (https://discord.gg/XXXXXXX)"
+#strava = "userid"
+
+[[menu.main]]
+name = "What"
+url = "page/what"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "page/about/"
+weight = 4
+
+[[menu.main]]
+name = "Why"
+url = "page/why/"
+weight = 2
+
+[[menu.main]]
+name = "How"
+url = "page/how/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "page/contact/"
+weight = 5
+
+#[[menu.main]]
+#name = "Blog"
+#url = "post/"
+#weight = 6
+
+[[menu.main]]
+name = "Tags"
+url = "tags"
+weight = 99

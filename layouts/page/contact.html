@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="">
+  {{ .Content }}
+
+    <form accept-charset="UTF-8" action="/contact-send" method="POST">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name" class="col">Name</label>
+                <input type="text" id="name" name="fullName" class="form-control" required>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="email" class="col">Email</label>
+                <input type="email" id="email" name="emailAddress" class="form-control" required>
+            </div>
+
+            <div class="form-group col-md-12">
+                <label for="message">Message</label>
+                <textarea rows="5" id="message" name="messageText" class="form-control" required></textarea>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="phone" class="col">Phone</label>
+                <input type="text" id="phone" name="phoneNumber" class="form-control" required/>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="callme" class="col">Call me</label>
+                <input type="checkbox" id="callme" name="contactMe" class="form-control" />
+            </div>
+
+            <div class="form-group col-md-3">
+                <button type="submit" class="btn btn-primary">Leave the message</button>
+            </div>
+        </div>
+    </form>
+</div>
+{{ end }}
