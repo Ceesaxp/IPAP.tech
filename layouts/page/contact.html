@@ -1,38 +1,87 @@
 {{ define "main" }}
-<div class="">
-  {{ .Content }}
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        {{ .Content }}
 
-    <form accept-charset="UTF-8" action="https://forms.un-static.com/forms/962c72adb0b65b81c3e02e94e1215db90ec66824" method="POST">
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="name" class="col">Name</label>
-                <input type="text" id="name" name="fullName" class="form-control" required>
+        <form accept-charset="UTF-8" action="https://forms.un-static.com/forms/962c72adb0b65b81c3e02e94e1215db90ec66824" method="POST" class="contact-form">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name *</label>
+                        <input type="text" id="name" name="fullName" class="form-control" required placeholder="Enter your full name">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address *</label>
+                        <input type="email" id="email" name="emailAddress" class="form-control" required placeholder="your.email@example.com">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" id="phone" name="phoneNumber" class="form-control" placeholder="+1 (555) 123-4567">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="company" class="form-label">Company/Organization</label>
+                        <input type="text" id="company" name="company" class="form-control" placeholder="Your company name">
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject *</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required placeholder="Brief description of your inquiry">
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea rows="6" id="message" name="messageText" class="form-control" required placeholder="Please provide details about your inquiry..."></textarea>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="contact-method" class="form-label">Preferred Contact Method</label>
+                        <select id="contact-method" name="contactMethod" class="form-control">
+                            <option value="">Select preference</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                            <option value="either">Either</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-6"></div>
+
+                <div class="col-12">
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="reset" class="btn btn-outline-secondary">Clear Form</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="form-group col-md-6">
-                <label for="email" class="col">Email</label>
-                <input type="email" id="email" name="emailAddress" class="form-control" required>
-            </div>
-
-            <div class="form-group col-md-12">
-                <label for="message">Message</label>
-                <textarea rows="5" id="message" name="messageText" class="form-control" required></textarea>
-            </div>
-
-            <div class="form-group col-md-6">
-                <label for="phone" class="col">Phone</label>
-                <input type="text" id="phone" name="phoneNumber" class="form-control" required/>
-            </div>
-
-            <div class="form-group col-md-6">
-                <label for="callme" class="col">Call me</label>
-                <input type="checkbox" id="callme" name="contactMe" class="form-control" />
-            </div>
-
-            <div class="form-group col-md-3">
-                <button type="submit" class="btn btn-primary">Leave the message</button>
-            </div>
-        </div>
-    </form>
+            <input type="hidden" name="_next" value="/thank-you">
+            <input type="hidden" name="_subject" value="New Contact Form Submission">
+        </form>
+      </article>
+    </div>
+  </div>
 </div>
+
+<link rel="stylesheet" href="{{ "css/contact-form.css" | absURL }}">
 {{ end }}

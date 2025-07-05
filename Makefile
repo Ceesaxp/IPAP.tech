@@ -1,7 +1,7 @@
 # Makefile for deploying the static Hugo site to the remote server
-USER = ec2-user
-HOST = rsync-aws.fft
-DIR = /var/www/html/ipap.tech/htdocs
+USER ?= ec2-user
+HOST ?= rsync-aws.fft
+DIR ?= /var/www/html/ipap.tech/htdocs
 HUGO = hugo
 RSYNC = rsync
 RM = rm -rf
