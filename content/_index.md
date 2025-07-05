@@ -1,7 +1,21 @@
 ---
-title: "Welcome to Ceesaxp"
+title: "We Don't Just Consult. We've Done Your Job."
 ---
 
-Do you want to to fully unlock the potential of your business? With over 30 years of expertise in a variety of fields, our partnership offers tailored solutions to help you achieve your goals. We focus on impact investment consulting, startup mentorship, and technology and finance advisory and can help you to build high-performance teams and deliver outstanding results.
+## The brutal truth? Your best answers are already inside your company.
 
-**[Contact us](page/contact) today to see how we can help you grow and succeed.**
+Most consultants have never walked in your shoes. We have. For 30+ years, we've been **CEOs, CTOs, Managing Directors, and General Partners**—actually running the businesses we now help transform.
+
+**We don't stretch contracts. We don't overstay our welcome. We get in, find your hidden talent, unleash what's already there, and get out.**
+
+### What's really happening to your business right now?
+
+The strategies that got you here aren't working anymore. Competition is gaining ground. Your best people are getting frustrated. You've tried a few fixes, but they didn't stick.
+
+**Sound familiar? You're at the crossroads.**
+
+We've helped emerging market banks become top performers. We've built transformation strategies for oil & gas giants. We've scaled fintech startups from idea to market leaders.
+
+**The difference?** We don't just diagnose problems—we've **lived them, solved them, and scaled through them.**
+
+**[Stop wasting time. Let's talk.](page/contact)**

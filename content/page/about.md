@@ -1,9 +1,9 @@
 ---
 title: "Who are we?"
-banner: "https://unsplash.com/photos/MYbhN8KaaEc"
+bigimg: [ {src: "/images/background.jpg", desc: "Cityscape" } ]
 ---
 
-Our consultancy, founded by an experienced banking IT professional with a proven track record of over 30 years, specializes in assembling and leading high-performance teams. Our expertise spans change management, agile practices, and corporate accelerators.
+Our consultancy, founded by an experienced banking IT professionals with a proven track record of over 30 years, specializes in assembling and leading high-performance teams. Our expertise spans change management, agile practices, and corporate accelerators.
 
 ### Professional Background
 
@@ -14,6 +14,3 @@ Our consultancy, founded by an experienced banking IT professional with a proven
 - Various **independent director** roles in financial institutions, banks, clearing houses
 - **CIO & Management Board member** at a leading easter-European bank
 
-### Education
-- BA in Business Administration, from Truman State University
-- Banking & Finance, Academy of Finance under the Government of the Russian Federation
