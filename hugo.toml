@@ -22,8 +22,8 @@ ogimage = "images/og-default.png"
 
 [params.author]
 name = "Andrei Popov"
-website = "ceesaxp.org"
-email = "andrei@ceesaxp.org"
+website = "ipap.tech"
+email = "info@ipap.tech"
 github = "Ceesaxp"
 twitter = "ceesaxp"
 linkedin = "andreipopov"
