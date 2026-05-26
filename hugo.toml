@@ -12,6 +12,7 @@ pygmentsCodefencesGuessSyntax = true
 [params]
 description = "Operator-led consulting. We've been CEOs, CTOs, GPs and Board members. 10–12 week engagements, success-fee aligned."
 subtitle = "Operators who've done the job."
+legalName = "IPAP Tech Ltd"
 googleAnalytics = "G-PM93CR9WSW"
 logo = "images/ipap-logo.png"
 footerTagline = "Operator-led consulting. Inside-out transformation. In, transform, out."

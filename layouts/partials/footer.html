@@ -32,8 +32,10 @@
       </div>
     </div>
     <div class="colophon">
-      <span>© {{ now.Format "2006" }} {{ site.Title }} · ipap.tech</span>
-      <span>
+      <span>© {{ now.Format "2006" }} {{ site.Params.legalName | default site.Title }} · ipap.tech</span>
+      <span class="colophon-links">
+        <a href="{{ "/page/privacy/" | relURL }}">Privacy</a>
+        <span aria-hidden="true">·</span>
         {{ with site.Params.author.name }}{{ if site.Params.author.website }}<a href="https://{{ site.Params.author.website }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}{{ end }}
       </span>
     </div>

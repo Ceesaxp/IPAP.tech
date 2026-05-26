@@ -29,7 +29,7 @@
   </div>
 </article>
 
-{{ if ne .RelPermalink "/page/contact/" }}
+{{ if not (or .Params.noCTA (in (slice "/page/contact/" "/page/contact-thank-you/" "/page/privacy/") .RelPermalink)) }}
 <section class="section">
   <div class="container">
     <div class="signoff">
