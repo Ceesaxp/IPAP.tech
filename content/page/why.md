@@ -11,16 +11,16 @@ We built IPAP to be the version of consulting we wished existed when we were on 
 
 ## We've actually been you
 
-Before this firm, we were:
+IPAP was founded by **Andrei Popov** after thirty years of operating, not consulting. Before this firm, his roles included:
 
 - **General Partner** at a venture fund
 - **Managing Director and CTO** at a cross-border payments business
-- **CEO** of one of Eastern Europe's largest e-commerce platforms
+- **CEO** of one of Eastern Europe&rsquo;s largest e-commerce platforms
 - **Chairman of the Supervisory Board** at a non-banking financial institution
 - **Independent director** at banks and clearing houses
 - **CIO and Management Board member** at a leading regional bank
 
-When we sit across from you, we're not pattern-matching to a case-study library. We're remembering the specific morning we made the call you're about to make — and what we'd do differently.
+When engagements call for more hands, IPAP brings in operator-collaborators with similar track records &mdash; never a cast of MBAs and slide-makers. When we sit across from you, we&rsquo;re not pattern-matching to a case-study library. We&rsquo;re remembering the specific morning we made the call you&rsquo;re about to make &mdash; and what we&rsquo;d do differently.
 
 ## We don't milk contracts
 
