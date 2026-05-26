@@ -1,0 +1,40 @@
+<svg viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroGraphicTitle">
+  <title id="heroGraphicTitle">Three intersecting motion arcs</title>
+  <defs>
+    <linearGradient id="heroG1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF5A4E"/>
+      <stop offset="1" stop-color="#E63E33"/>
+    </linearGradient>
+    <linearGradient id="heroG2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1F3A"/>
+      <stop offset="1" stop-color="#1F3559"/>
+    </linearGradient>
+    <linearGradient id="heroG3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4B942"/>
+      <stop offset="1" stop-color="#E89B1E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer dotted circle -->
+  <circle cx="240" cy="240" r="220" stroke="#0B1F3A" stroke-width="1.5" stroke-dasharray="2 8" opacity="0.25"/>
+  <circle cx="240" cy="240" r="175" stroke="#0B1F3A" stroke-width="1" stroke-dasharray="1 6" opacity="0.18"/>
+
+  <!-- Navy arc -->
+  <path d="M 80 240 A 160 160 0 0 1 400 240" stroke="url(#heroG2)" stroke-width="22" stroke-linecap="round" fill="none"/>
+
+  <!-- Coral arc -->
+  <path d="M 130 320 A 140 140 0 0 1 380 180" stroke="url(#heroG1)" stroke-width="22" stroke-linecap="round" fill="none" opacity="0.95"/>
+
+  <!-- Amber arc -->
+  <path d="M 175 380 A 120 120 0 0 1 340 110" stroke="url(#heroG3)" stroke-width="18" stroke-linecap="round" fill="none" opacity="0.95"/>
+
+  <!-- Center dot -->
+  <circle cx="240" cy="240" r="14" fill="#0B1F3A"/>
+  <circle cx="240" cy="240" r="6" fill="#FF5A4E"/>
+
+  <!-- Accent nodes -->
+  <circle cx="400" cy="240" r="8" fill="#0B1F3A"/>
+  <circle cx="340" cy="110" r="7" fill="#F4B942"/>
+  <circle cx="380" cy="180" r="7" fill="#FF5A4E"/>
+  <circle cx="80" cy="240" r="8" fill="#0B1F3A"/>
+</svg>

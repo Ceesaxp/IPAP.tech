@@ -1,0 +1,43 @@
+{{ define "main" }}
+<header class="page-header">
+  <div class="container container-narrow">
+    {{ with .Params.eyebrow }}<span class="eyebrow">{{ . }}</span>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="lead">{{ . }}</p>{{ end }}
+    {{ if and (eq .Type "post") (not .Date.IsZero) }}
+      <p class="muted" style="margin-top: 1rem;">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ if .ReadingTime }} · {{ .ReadingTime }} min read{{ end }}
+      </p>
+    {{ end }}
+  </div>
+</header>
+
+<article class="section">
+  <div class="container">
+    <div class="article">
+      {{ .Content }}
+    </div>
+
+    {{ if .Params.tags }}
+    <div class="container-narrow" style="margin-top: 2rem; text-align: center;">
+      {{ range .Params.tags }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" style="margin: 0 0.4rem;">#{{ . }}</a>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>
+
+{{ if ne .RelPermalink "/page/contact/" }}
+<section class="section">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h2>Got a stuck transformation?</h2>
+        <p>One conversation. We'll tell you whether it's worth doing — and whether we're the right team.</p>
+      </div>
+      <a class="btn btn-primary btn-arrow" href="{{ "/page/contact/" | relURL }}">Start the conversation</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

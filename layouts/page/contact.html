@@ -1,87 +1,71 @@
 {{ define "main" }}
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
+<header class="page-header">
+  <div class="container container-narrow">
+    {{ with .Params.eyebrow }}<span class="eyebrow">{{ . }}</span>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="lead">{{ . }}</p>{{ end }}
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Tell us what's stuck.</h2>
+        <p class="muted">We read everything ourselves. You'll hear back within two business days — usually the same day. If we're not the right fit, we'll tell you and try to point you somewhere that is.</p>
+        <ul>
+          {{ with site.Params.author.email }}<li><span>Email</span><span><a href="mailto:{{ . }}">{{ . }}</a></span></li>{{ end }}
+          {{ with site.Params.author.linkedin }}<li><span>LinkedIn</span><span><a href="https://linkedin.com/in/{{ . }}">in/{{ . }}</a></span></li>{{ end }}
+          {{ with site.Params.author.telegram }}<li><span>Telegram</span><span><a href="https://t.me/{{ . }}">@{{ . }}</a></span></li>{{ end }}
+        </ul>
         {{ .Content }}
+      </div>
 
-        <form accept-charset="UTF-8" action="https://forms.un-static.com/forms/962c72adb0b65b81c3e02e94e1215db90ec66824" method="POST" class="contact-form">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="name" class="form-label">Full Name *</label>
-                        <input type="text" id="name" name="fullName" class="form-control" required placeholder="Enter your full name">
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email Address *</label>
-                        <input type="email" id="email" name="emailAddress" class="form-control" required placeholder="your.email@example.com">
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" id="phone" name="phoneNumber" class="form-control" placeholder="+1 (555) 123-4567">
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="company" class="form-label">Company/Organization</label>
-                        <input type="text" id="company" name="company" class="form-control" placeholder="Your company name">
-                    </div>
-                </div>
-
-                <div class="col-12">
-                    <div class="form-group">
-                        <label for="subject" class="form-label">Subject *</label>
-                        <input type="text" id="subject" name="subject" class="form-control" required placeholder="Brief description of your inquiry">
-                    </div>
-                </div>
-
-                <div class="col-12">
-                    <div class="form-group">
-                        <label for="message" class="form-label">Message *</label>
-                        <textarea rows="6" id="message" name="messageText" class="form-control" required placeholder="Please provide details about your inquiry..."></textarea>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="contact-method" class="form-label">Preferred Contact Method</label>
-                        <select id="contact-method" name="contactMethod" class="form-control">
-                            <option value="">Select preference</option>
-                            <option value="email">Email</option>
-                            <option value="phone">Phone</option>
-                            <option value="either">Either</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="col-md-6"></div>
-
-                <div class="col-12">
-                    <div class="clearfix"></div>
-                </div>
-
-                <div class="col-12">
-                    <div class="form-group text-center">
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                        <button type="reset" class="btn btn-outline-secondary">Clear Form</button>
-                    </div>
-                </div>
-            </div>
-
-            <input type="hidden" name="_next" value="/thank-you">
-            <input type="hidden" name="_subject" value="New Contact Form Submission">
-        </form>
-      </article>
+      <form class="contact-form" action="https://forms.un-static.com/forms/962c72adb0b65b81c3e02e94e1215db90ec66824" method="POST" accept-charset="UTF-8">
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Full name *</label>
+            <input id="name" name="fullName" type="text" required autocomplete="name" placeholder="Jane Doe">
+          </div>
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" name="emailAddress" type="email" required autocomplete="email" placeholder="jane@company.com">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" autocomplete="organization" placeholder="Your company">
+          </div>
+          <div class="field">
+            <label for="role">Your role</label>
+            <input id="role" name="role" type="text" autocomplete="organization-title" placeholder="CEO, Founder, CTO…">
+          </div>
+        </div>
+        <div class="field">
+          <label for="subject">What's the situation? *</label>
+          <input id="subject" name="subject" type="text" required placeholder="One sentence — what's broken or stuck">
+        </div>
+        <div class="field">
+          <label for="message">Tell us more *</label>
+          <textarea id="message" name="messageText" rows="6" required placeholder="What have you tried? What outcome would feel like a win?"></textarea>
+        </div>
+        <div class="field">
+          <label for="contact-method">Preferred next step</label>
+          <select id="contact-method" name="contactMethod">
+            <option value="email">Reply by email</option>
+            <option value="call">Schedule a call</option>
+            <option value="either">Either is fine</option>
+          </select>
+        </div>
+        <div class="actions">
+          <button type="submit" class="btn btn-primary btn-arrow">Send</button>
+          <button type="reset" class="btn btn-ghost">Clear</button>
+        </div>
+        <input type="hidden" name="_next" value="{{ "/page/contact-thank-you/" | absURL }}">
+        <input type="hidden" name="_subject" value="ipap.tech — new inquiry">
+      </form>
     </div>
   </div>
-</div>
-
-<link rel="stylesheet" href="{{ "css/contact-form.css" | absURL }}">
+</section>
 {{ end }}

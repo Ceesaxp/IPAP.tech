@@ -1,0 +1,19 @@
+<nav class="site-nav" aria-label="Primary">
+  <div class="container">
+    <a href="{{ "/" | relURL }}" class="brand" aria-label="{{ site.Title }} home">
+      {{- with site.Params.logo -}}
+        <img src="{{ . | relURL }}" alt="{{ site.Title }}" loading="eager" decoding="async">
+      {{- end -}}
+      <span>{{ site.Title }}</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>Menu</button>
+    <ul class="nav-links" id="nav-links">
+      {{- range site.Menus.main.ByWeight -}}
+        {{- $cta := and (eq .Name "Contact") true -}}
+        <li>
+          <a href="{{ .URL | relLangURL }}" {{ if $cta }}class="nav-cta"{{ end }}>{{ .Name }}</a>
+        </li>
+      {{- end -}}
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,75 @@
+{{- $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) -}}
+{{- $desc := .Description | default .Params.subtitle | default site.Params.description | default site.Params.subtitle -}}
+{{- $ogImage := .Params.ogimage | default site.Params.ogimage | default "/images/og-default.png" -}}
+{{- $ogImage = $ogImage | absURL -}}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+{{ with $desc }}<meta name="description" content="{{ . }}">{{ end }}
+{{ with site.Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+<meta property="og:title" content="{{ $title }}">
+{{ with $desc }}<meta property="og:description" content="{{ . }}">{{ end }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+{{ with $desc }}<meta name="twitter:description" content="{{ . }}">{{ end }}
+<meta name="twitter:image" content="{{ $ogImage }}">
+
+<link rel="icon" href="{{ "images/favicon.png" | relURL }}">
+<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ site.Title }} feed">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700;800&display=swap">
+
+{{- $css := resources.Get "css/ipap.css" -}}
+{{- if hugo.IsProduction -}}
+  {{- $css = $css | minify | fingerprint -}}
+{{- end -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $css.Data.Integrity }}"{{ end }}>
+
+{{- with site.Params.googleAnalytics -}}
+{{- if not hugo.IsServer -}}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+{{- end -}}
+{{- end -}}
+
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "{{ site.Title }}",
+  "url": "{{ site.BaseURL }}",
+  "logo": "{{ "images/ipap-logo.png" | absURL }}",
+  "description": "{{ $desc }}",
+  {{- with site.Params.author.email }}"email": "{{ . }}",{{ end }}
+  "sameAs": [
+    {{- $first := true -}}
+    {{- range $key, $val := site.Params.author -}}
+      {{- if and (in (slice "linkedin" "github" "twitter" "medium") $key) $val -}}
+        {{- if not $first -}},{{- end -}}
+        {{- $first = false -}}
+        {{- if eq $key "linkedin" }}"https://linkedin.com/in/{{ $val }}"
+        {{- else if eq $key "github" }}"https://github.com/{{ $val }}"
+        {{- else if eq $key "twitter" }}"https://twitter.com/{{ $val }}"
+        {{- else if eq $key "medium" }}"https://medium.com/@{{ $val }}"
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  ]
+}
+</script>
+{{- end -}}

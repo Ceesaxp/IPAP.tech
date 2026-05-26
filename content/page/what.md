@@ -1,52 +1,44 @@
 ---
-title: "What We Actually Do"
-subtitle: "Real solutions for real problems"
-bigimg: [ {src: "/images/scrum.jpg", desc: "Rugby team scrumming/Unsplash" } ]
+title: "What we do"
+subtitle: "Three places we step in — and the change you should expect."
+eyebrow: "Services"
+description: "Operator-led consulting for founders scaling chaos, corporates losing ground, and financial services in transition."
 ---
 
-## When Everything That Worked... Doesn't
+We don't have twelve service lines. We have three situations we've lived through more times than we can count, and a method for getting you through them faster than you'd do it alone.
 
-You're here because the old playbook isn't working. Your competition is moving faster. Your team is frustrated. Your board is asking hard questions.
+## 01 · Founders scaling chaos
 
-**We specialize in these exact moments.**
+**You're here when:** product-market fit is real, but every system that worked at 5 people is breaking at 50. You're hiring against a wall. Your best people are starting to ask uncomfortable questions about the road ahead.
 
-## For Startup Founders: From Chaos to Clarity
+**What we do:** Sit beside you for 10–12 weeks. Identify which load-bearing walls you can actually move. Build the operating cadence that survives next year's headcount. Coach (not replace) your leadership team into the version of itself that can run a 200-person company.
 
-**Your Challenge:** You've got product-market fit, but scaling is breaking everything.
+**What changes:** A roadmap your team owns. Hiring filters that protect the culture you have. Metrics your board will trust. A succession plan for the founder roles you shouldn't be playing forever.
 
-**What We Do:** Transform your scrappy startup team into a high-performance machine. We've built teams from 5 to 500+. We know where the bodies are buried.
+## 02 · Corporates losing ground
 
-**Real Result:** Clear roadmap, motivated team, investor-ready metrics.
+**You're here when:** smaller competitors are taking margin you used to consider safe. The team's smart and committed, but stuck. The deck from the last consulting firm is still on the shelf.
 
-## For Corporate Executives: From Stagnation to Acceleration  
+**What we do:** Talk to the people who are usually told to be quiet — the frustrated star engineer, the regional MD with the spreadsheet that doesn't match the head-office one, the product manager who's been right twice and ignored twice. Find the talent you already pay for but don't use. Remove the obstacles your team didn't think they were allowed to move.
 
-**Your Challenge:** You're losing ground to nimbler competitors. Your team feels stuck.
+**What changes:** Internal momentum that doesn't require external air-cover. Clearer decision rights. A pipeline of internal leaders. The case study one of our banking clients calls "from boring and decaying to top market performer."
 
-**What We Do:** Find the untapped talent you already have. Build transformation strategies that actually stick. Create clarity where there's confusion.
+## 03 · Financial services in transition
 
-**Real Results:** We turned a "boring, decaying" emerging markets bank into a top market performer.
+**You're here when:** fintech is eating your edges, regulators are tightening the middle, and the digital transformation programme has been running for three years without anything looking transformed.
 
-## For Financial Services: From Legacy to Leader
+**What we do:** Bridge legacy and modern — not as a slide concept, as an operating model. We've been CIO and Management Board at a leading bank, MD/CTO at cross-border payments, chairman at a non-banking financial institution. We know which technology bets are worth taking, and which "innovations" are theatre.
 
-**Your Challenge:** Fintech disruption. Regulatory pressure. Digital transformation that's not transforming anything.
+**What changes:** Tech and business strategies that survive contact with reality. A team that ships. Vendor relationships that don't capture you. Regulatory posture that holds up under inspection.
 
-**What We Do:** Bridge the gap between traditional finance and modern technology. We've scaled cross-border payment startups and modernized major banks.
+---
 
-**Real Results:** IT and business strategies that actually work in the real world.
+## Our non-negotiables
 
-## Our "Secret Sauce"
+- **Speed over politics.** Decisions in days, not quarters. We cut through layers — politely the first time.
+- **Inside-out solutions.** External "best practices" rarely fit your specific context. We work with the talent and constraints you actually have.
+- **Real transparency.** We'll tell you things your own team is afraid to say. We'll also tell you when we're the wrong fit.
+- **Success-fee aligned.** We're confident enough to tie our compensation to your outcomes. If you don't win, we don't.
+- **Exit-first design.** From day one, we're building toward a hand-off. Success means you stop needing us.
 
-**Most consultants bring external solutions. We unlock internal capabilities.**
-
-We help you find the resources and talent you already have—then rejuvenate and recharge the people who've been getting bored, stagnant, or frustrated.
-
-## How We Work Differently
-
-✅ **Results in 10-12 weeks** (not months or years)  
-✅ **Success-fee based** (we only win when you win)  
-✅ **Inside-out approach** (your answers are already there)  
-✅ **Get in, transform, get out** (no contract stretching)
-
-**Ready to stop spinning your wheels?**
-
-**[Let's identify what you're really missing.](/page/contact)**
+**Sound like the engagement you're looking for? [Start a conversation.](/page/contact/)**

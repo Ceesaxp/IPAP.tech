@@ -1,35 +1,45 @@
 ---
-title: "We're Fighting an Industry Lie"
-subtitle: "Why most consulting is broken (and how we're different)"
-bigimg: [ {src: "/images/rowing.jpg", desc: "Rowing boat on a river/Unsplash" } ]
+title: "Why us"
+subtitle: "An industry built on people who've never done the job. We've done the job."
+eyebrow: "Why IPAP"
+description: "Operator-led consulting, not framework-led. 30+ years as CEOs, CTOs, GPs and Board members in banking, payments and venture."
 ---
 
-## The lie: "Those who can't do, consult."
+There's a quiet joke inside every operating company: *those who can't do, consult.* Most of the time it's a cheap shot. Some of the time it's accurate. The shame is that the cheap shot survives because of how much of consulting deserves it.
 
-**We call bullshit.**
+We built IPAP to be the version of consulting we wished existed when we were on the client side of the table.
 
-Every other consulting firm sends you people who've never actually **done** your job. They've got frameworks, methodologies, and PowerPoint—but they've never faced a board when revenue is tanking, never built a team from scratch, never had their own money on the line.
+## We've actually been you
 
-## Here's what makes us dangerously different:
+Before this firm, we were:
 
-### **We've Been You**
-- **General Partner** at venture funds
-- **Managing Director & CTO** at cross-border payment startups  
-- **CEO** of major Eastern European e-commerce platforms
-- **CIO & Management Board** members at leading banks
+- **General Partner** at a venture fund
+- **Managing Director and CTO** at a cross-border payments business
+- **CEO** of one of Eastern Europe's largest e-commerce platforms
+- **Chairman of the Supervisory Board** at a non-banking financial institution
+- **Independent director** at banks and clearing houses
+- **CIO and Management Board member** at a leading regional bank
 
-### **We Don't Milk Contracts**
-Most consultants want to keep you dependent. We want to get you independent. **Fast.** You'll see results in 10-12 weeks, not 10-12 months.
+When we sit across from you, we're not pattern-matching to a case-study library. We're remembering the specific morning we made the call you're about to make — and what we'd do differently.
 
-### **We Find Gold You Already Own**
-Your best solutions aren't in some external playbook. They're locked inside your frustrated, underutilized talent. We unlock them.
+## We don't milk contracts
 
-### **We Only Win When You Win**
-We're confident enough to work on success fees. If we don't deliver results, we don't get paid.
+Most consulting firms have a financial incentive to keep you dependent. We don't. The default engagement is 10–12 weeks. If it needs to be shorter, we'll tell you. If it needs to be longer, we'll tell you that too — with the reason in plain English.
 
-### **We've Done This at the Highest Levels**
-BCG, Raiffeisen Bank, Citi, and companies we can't name have trusted us with their most critical transformations.
+## We work success-fee where we can
 
-**The brutal question:** How much is staying stuck costing you right now?
+A success fee is a confidence signal in both directions. You only pay the upside if the outcome lands; we only get the upside if we did the work. Not every engagement supports it, but it's where we'd rather start the conversation.
 
-**[Find out what you're missing.](/page/contact)**
+## We find what you already own
+
+Almost every transformation we're called into has the answer somewhere in the building. The job is usually less about *bringing* expertise and more about *unblocking* the people who already have it and have been ignored for a year. That's the engagement.
+
+## We've earned trust at the top
+
+BCG. Raiffeisen Bank. Citi. Squirro. Plus several institutions whose names we're not allowed to put on a website. The reference list is private; the references themselves answer when we ask.
+
+---
+
+**The honest question:** how much is staying stuck costing you right now? Three months? Six? The next round? A team you'd be sad to lose?
+
+**[Tell us where you're stuck.](/page/contact/)** Worst case, we tell you we're not the right fit and you've spent an email.

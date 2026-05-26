@@ -1,62 +1,95 @@
 ---
-title: 'Our Philosophy: Get In, Transform, Get Out'
-subtitle: 'How we work (and why it actually works)'
-bigimg: [ {src: "/images/racing.jpg", desc: "Racing horses and jockeys/Unsplash" } ]
+title: "How we work"
+subtitle: "Get in. Transform. Get out."
+eyebrow: "Approach"
+description: "A 10–12 week engagement model that builds internal capability instead of dependency. Speed, transparency, exit-first."
 ---
 
-## The Anti-Consulting Approach
+Most consulting wants to become part of your furniture. We plan our exit from day one. A standard engagement is twelve weeks, broken into three honest phases.
 
-Most consultants want to become part of your furniture. We want to make ourselves obsolete. **Fast.**
+<div class="timeline" style="margin: 2.5rem 0;">
 
-Here's exactly how we operate:
+<article class="timeline-step">
+  <div class="step-num">01</div>
+  <div>
+    <span class="step-meta">Week 1–2 · Reality check</span>
+    <h3>Brutally honest assessment</h3>
+    <p><strong>What we believe:</strong> you already have most of the answers. They're buried under politics, assumptions and daily firefighting.</p>
+    <p><strong>What we do:</strong> talk to the people the deck didn't include. Map what's actually broken vs. what people <em>think</em> is broken. Write the version of the situation everyone privately suspects but no one has put on paper.</p>
+    <p><strong>What you get:</strong> a clear picture of what's really happening — not what the quarterly report says.</p>
+  </div>
+</article>
 
-## 🎯 **Week 1-2: The Reality Check**
+<article class="timeline-step">
+  <div class="step-num">02</div>
+  <div>
+    <span class="step-meta">Week 3–8 · Unleashing</span>
+    <h3>Remove obstacles, install momentum</h3>
+    <p><strong>What we believe:</strong> your people want to excel. They're trapped in broken systems and unclear expectations.</p>
+    <p><strong>What we do:</strong> build roadmaps that actually hold up. Set metrics that mean something. Remove the obstacles your team didn't think they were allowed to remove. Coach leaders through real decisions, not table-top exercises.</p>
+    <p><strong>What you get:</strong> immediate visible motion. Team morale shifts inside the first month. Things start shipping.</p>
+  </div>
+</article>
 
-**What we believe:** You already have most of the answers. They're just buried under politics, assumptions, and daily chaos.
+<article class="timeline-step">
+  <div class="step-num">03</div>
+  <div>
+    <span class="step-meta">Week 9–12 · Hand-off</span>
+    <h3>We make ourselves obsolete</h3>
+    <p><strong>What we believe:</strong> the best transformations are self-sustaining.</p>
+    <p><strong>What we do:</strong> transfer knowledge instead of dependency. Build the internal capability that carries the work after we leave. Document the operating model the team now owns.</p>
+    <p><strong>What you get:</strong> an independent, high-performing team that knows where it's going — and a phone number it doesn't need to call.</p>
+  </div>
+</article>
 
-**What we do:** Conduct brutally honest assessments. Talk to your frustrated talent. Identify what's actually broken vs. what people think is broken.
+</div>
 
-**Your result:** Crystal-clear picture of what's really happening (not what the reports say).
+## What you should expect from us
 
-## ⚡ **Week 3-8: The Unleashing**
+<div class="grid grid-2" style="margin: 2rem 0;">
+  <div class="card">
+    <h3>Speed over politics</h3>
+    <p>Decisions in days, not quarters. Politics slows everything down — we cut through it. Politely the first time.</p>
+  </div>
+  <div class="card">
+    <h3>Inside-out solutions</h3>
+    <p>External best practices rarely fit your context. We design with the talent and constraints you actually have.</p>
+  </div>
+  <div class="card">
+    <h3>Real transparency</h3>
+    <p>We'll say the things your own team is afraid to say — to your team, to your board, and to you.</p>
+  </div>
+  <div class="card">
+    <h3>Exit-first design</h3>
+    <p>Every milestone is measured against one question: are we closer to not being needed?</p>
+  </div>
+</div>
 
-**What we believe:** Your people want to excel. They're just trapped in broken systems and unclear expectations.
+---
 
-**What we do:** Build roadmaps that actually work. Set up metrics that matter. Remove the obstacles your team didn't even know they could remove.
+## Frequently asked
 
-**Your result:** Immediate momentum. Team morale shifts. Things start moving.
+<div class="faq">
+  <details>
+    <summary>How fast can you start?</summary>
+    <p>Once scope is agreed, usually within two weeks. We turn around an initial scoping note within 48 hours of our first conversation.</p>
+  </details>
+  <details>
+    <summary>Do you take success fees?</summary>
+    <p>Where the engagement supports it, yes — and we prefer to start the conversation there. Some engagements (e.g. board advisory, pure assessment) don't have a clean outcome to peg a fee to; we'll be upfront about which is which.</p>
+  </details>
+  <details>
+    <summary>Will you sign an NDA?</summary>
+    <p>Of course. Most of our work is under NDA. The client list on this site is the public subset.</p>
+  </details>
+  <details>
+    <summary>What if the right answer is "we shouldn't work together"?</summary>
+    <p>We'll tell you, and where we can we'll point you to someone better suited. We'd rather lose a deal than take a bad one.</p>
+  </details>
+  <details>
+    <summary>Do you do anything outside the three areas on the Services page?</summary>
+    <p>Occasionally — board advisory, fractional C-level, NED roles. If you're not sure, just ask.</p>
+  </details>
+</div>
 
-## 🚀 **Week 9-12: The Hand-Off**
-
-**What we believe:** The best transformations become self-sustaining.
-
-**What we do:** Transfer knowledge, not dependency. Build internal capability. Create systems that work without us.
-
-**Your result:** Independent, high-performing team with clear direction and measurable progress.
-
-## Our Non-Negotiables
-
-### **Speed Over Politics**
-We make decisions fast. Test hypotheses fast. Fail fast when something doesn't work. Politics slows everything down—we cut through it.
-
-### **Inside-Out Solutions**
-External "best practices" usually don't fit your specific context. We find what works for YOU, using the talent YOU already have.
-
-### **Real Transparency**
-We'll tell you things your own team is afraid to say. We'll also tell you when we're not the right fit.
-
-### **Success-Fee Confidence**
-We're so confident in our approach, we'll tie our compensation to your results. If you don't win, we don't get paid.
-
-### **The Exit Strategy**
-From day one, we're planning our exit. Success means you no longer need us.
-
-## The Uncomfortable Truth
-
-**Most consultants sell you solutions to problems you don't actually have.**
-
-We help you solve the problems you DO have—using the capabilities you already own but aren't fully utilizing.
-
-**Ready to stop wasting time on strategies that don't stick?**
-
-**[Let's cut through the noise and get to work.](/page/contact)**
+**[Ready to talk?](/page/contact/)**

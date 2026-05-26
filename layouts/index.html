@@ -1,0 +1,154 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Operator-led consulting</span>
+        <h1>Your best answers are <span class="accent">already inside</span> your company.</h1>
+        <p class="lead">We don't sell frameworks. We've been CEOs, CTOs, GPs and Board members for 30+ years &mdash; and we've lived the problems you're facing right now.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-arrow" href="{{ "/page/contact/" | relURL }}">Book a working session</a>
+          <a class="btn btn-ghost" href="{{ "/page/how/" | relURL }}">How we work</a>
+        </div>
+        <div class="hero-meta">
+          <span><strong>10&ndash;12 weeks</strong> — average engagement</span>
+          <span><strong>Success-fee</strong> based</span>
+          <span><strong>30+ years</strong> as operators</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        {{ partial "hero-graphic.svg" . }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-mist">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">What we do</span>
+      <h2 style="max-width: 22ch; margin-left: auto; margin-right: auto;">Three places we step in &mdash; and the change you should expect.</h2>
+    </div>
+    <div class="grid grid-3" style="margin-top: 3rem;">
+      <article class="card">
+        <span class="badge">01</span>
+        <h3>For founders scaling chaos</h3>
+        <p>You've got product-market fit, and now every system that worked at 5 people is breaking at 50. We've built teams from 5 to 500+ and we know which load-bearing walls you're allowed to move.</p>
+      </article>
+      <article class="card">
+        <span class="badge">02</span>
+        <h3>For corporates losing ground</h3>
+        <p>Nimbler competitors are eating your margins. Your team feels stuck. We find the underused talent already on your payroll and turn stagnation into momentum &mdash; without a 200-slide deck.</p>
+      </article>
+      <article class="card">
+        <span class="badge">03</span>
+        <h3>For financial services in transition</h3>
+        <p>Fintech disruption, regulatory pressure, digital transformations that aren't transforming. We've scaled cross-border payments and modernized major banks. We bridge legacy and modern.</p>
+      </article>
+    </div>
+    <div class="text-center" style="margin-top: 2rem;">
+      <a class="btn btn-ghost btn-arrow" href="{{ "/page/what/" | relURL }}">See full services</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="stats">
+      <div class="stat"><span class="num">30+</span><span class="label">Years operating, not just consulting</span></div>
+      <div class="stat"><span class="num">10&ndash;12</span><span class="label">Weeks to measurable change</span></div>
+      <div class="stat"><span class="num">5&ndash;500+</span><span class="label">Team sizes we've scaled through</span></div>
+      <div class="stat"><span class="num">100%</span><span class="label">Success-fee aligned engagements</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-ink">
+  <div class="container">
+    <div class="split-approach">
+      <div>
+        <span class="eyebrow">Approach</span>
+        <h2>Get in. Transform. Get out.</h2>
+        <p class="lead">Most consultants want to become part of your furniture. We plan our exit from day one. Knowledge transfers to your team &mdash; not dependency on ours.</p>
+        <a class="btn btn-ghost btn-arrow" href="{{ "/page/how/" | relURL }}" style="margin-top: 1rem;">Read the playbook</a>
+      </div>
+      <div class="timeline">
+        <article class="timeline-step">
+          <div class="step-num">01</div>
+          <div>
+            <span class="step-meta">Week 1&ndash;2 · Reality check</span>
+            <h3>Brutally honest assessment</h3>
+            <p>We talk to your frustrated talent and your quiet stars. We separate the broken things from the things people only think are broken.</p>
+          </div>
+        </article>
+        <article class="timeline-step">
+          <div class="step-num">02</div>
+          <div>
+            <span class="step-meta">Week 3&ndash;8 · Unleashing</span>
+            <h3>Remove obstacles, install momentum</h3>
+            <p>Roadmaps that hold up under pressure. Metrics that mean something. Decisions made in days, not quarters.</p>
+          </div>
+        </article>
+        <article class="timeline-step">
+          <div class="step-num">03</div>
+          <div>
+            <span class="step-meta">Week 9&ndash;12 · Hand-off</span>
+            <h3>We make ourselves obsolete</h3>
+            <p>Internal capability stays after we leave. Your team owns the system. That's the deal.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">In their words</span>
+      <h2>What clients actually say.</h2>
+    </div>
+    <div class="grid grid-2" style="margin-top: 3rem;">
+      <div class="quote">
+        <blockquote>"No-nonsense transformative impact on our business."</blockquote>
+        <cite>— Banking executive</cite>
+      </div>
+      <div class="quote">
+        <blockquote>"Where I was unsure how to proceed with my idea — you guided me to find the answers myself."</blockquote>
+        <cite>— Founder, fintech</cite>
+      </div>
+      <div class="quote">
+        <blockquote>"Exceptional leadership and innovative solutions. We'd been stuck for a year."</blockquote>
+        <cite>— Startup CEO</cite>
+      </div>
+      <div class="quote">
+        <blockquote>"I'd highly recommend these guys to any business looking to actually move."</blockquote>
+        <cite>— Corporate CEO</cite>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top: 2.5rem;">
+      <p class="muted" style="margin-bottom: 1rem;">Trusted at the highest levels by</p>
+      <div class="proof">
+        <span class="name">BCG</span>
+        <span class="name">Raiffeisen Bank</span>
+        <span class="name">Citi</span>
+        <span class="name">Squirro</span>
+        <span class="name muted">…and others under NDA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h2>Stop spinning. Start moving.</h2>
+        <p>Tell us what's stuck. We'll tell you within a week whether we're the right fit — and whether it's worth doing.</p>
+      </div>
+      <a class="btn btn-primary btn-arrow" href="{{ "/page/contact/" | relURL }}">Start the conversation</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

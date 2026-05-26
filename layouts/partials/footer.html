@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="brand-block">
+        <a href="{{ "/" | relURL }}" class="brand">
+          {{ with site.Params.logo }}<img src="{{ . | relURL }}" alt="{{ site.Title }}">{{ end }}
+          <span>{{ site.Title }}</span>
+        </a>
+        <p style="margin-top: 1rem;">{{ site.Params.footerTagline | default "Operator-led consulting. Inside-out transformation. In, transform, out." }}</p>
+        <div class="socials" aria-label="Social links">
+          {{ with site.Params.author.linkedin }}<a href="https://linkedin.com/in/{{ . }}" aria-label="LinkedIn" rel="me">in</a>{{ end }}
+          {{ with site.Params.author.github }}<a href="https://github.com/{{ . }}" aria-label="GitHub" rel="me">gh</a>{{ end }}
+          {{ with site.Params.author.twitter }}<a href="https://twitter.com/{{ . }}" aria-label="Twitter" rel="me">x</a>{{ end }}
+          {{ with site.Params.author.medium }}<a href="https://medium.com/@{{ . }}" aria-label="Medium" rel="me">m</a>{{ end }}
+          {{ with site.Params.author.telegram }}<a href="https://t.me/{{ . }}" aria-label="Telegram" rel="me">tg</a>{{ end }}
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          {{- range site.Menus.main.ByWeight -}}
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          {{- end -}}
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          {{ with site.Params.author.email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+          <li><a href="{{ "/page/contact/" | relURL }}">Start a conversation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="colophon">
+      <span>© {{ now.Format "2006" }} {{ site.Title }}. All rights reserved.</span>
+      <span>
+        {{ with site.Params.author.name }}{{ if site.Params.author.website }}<a href="https://{{ site.Params.author.website }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}{{ end }}
+      </span>
+    </div>
+  </div>
+</footer>
