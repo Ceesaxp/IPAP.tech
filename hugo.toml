@@ -14,7 +14,6 @@ description = "Operator-led consulting. We've been CEOs, CTOs, GPs and Board mem
 subtitle = "Operators who've done the job."
 googleAnalytics = "G-PM93CR9WSW"
 logo = "images/ipap-logo.png"
-favicon = "images/favicon.png"
 footerTagline = "Operator-led consulting. Inside-out transformation. In, transform, out."
 mainSections = ["insights"]
 dateFormat = "Jan 2, 2006"
