@@ -2,21 +2,21 @@
   <div class="container">
     <div class="footer-grid">
       <div class="brand-block">
-        <a href="{{ "/" | relURL }}" class="brand">
-          {{ with site.Params.logo }}<img src="{{ . | relURL }}" alt="{{ site.Title }}">{{ end }}
-          <span>{{ site.Title }}</span>
+        <a href="{{ "/" | relURL }}" class="brand no-underline">
+          <span class="mark" aria-hidden="true"></span>
+          <span class="brand-name">ipap</span>
         </a>
-        <p style="margin-top: 1rem;">{{ site.Params.footerTagline | default "Operator-led consulting. Inside-out transformation. In, transform, out." }}</p>
+        <p>{{ site.Params.footerTagline | default "Operators who've done the job. In, transform, out." }}</p>
         <div class="socials" aria-label="Social links">
-          {{ with site.Params.author.linkedin }}<a href="https://linkedin.com/in/{{ . }}" aria-label="LinkedIn" rel="me">in</a>{{ end }}
-          {{ with site.Params.author.github }}<a href="https://github.com/{{ . }}" aria-label="GitHub" rel="me">gh</a>{{ end }}
-          {{ with site.Params.author.twitter }}<a href="https://twitter.com/{{ . }}" aria-label="Twitter" rel="me">x</a>{{ end }}
-          {{ with site.Params.author.medium }}<a href="https://medium.com/@{{ . }}" aria-label="Medium" rel="me">m</a>{{ end }}
-          {{ with site.Params.author.telegram }}<a href="https://t.me/{{ . }}" aria-label="Telegram" rel="me">tg</a>{{ end }}
+          {{ with site.Params.author.linkedin }}<a href="https://linkedin.com/in/{{ . }}" aria-label="LinkedIn" rel="me">In</a>{{ end }}
+          {{ with site.Params.author.github }}<a href="https://github.com/{{ . }}" aria-label="GitHub" rel="me">Gh</a>{{ end }}
+          {{ with site.Params.author.twitter }}<a href="https://twitter.com/{{ . }}" aria-label="Twitter" rel="me">X</a>{{ end }}
+          {{ with site.Params.author.medium }}<a href="https://medium.com/@{{ . }}" aria-label="Medium" rel="me">M</a>{{ end }}
+          {{ with site.Params.author.telegram }}<a href="https://t.me/{{ . }}" aria-label="Telegram" rel="me">Tg</a>{{ end }}
         </div>
       </div>
       <div>
-        <h4>Explore</h4>
+        <h4>Read</h4>
         <ul>
           {{- range site.Menus.main.ByWeight -}}
           <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
@@ -24,15 +24,15 @@
         </ul>
       </div>
       <div>
-        <h4>Get in touch</h4>
+        <h4>Write</h4>
         <ul>
           {{ with site.Params.author.email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
-          <li><a href="{{ "/page/contact/" | relURL }}">Start a conversation</a></li>
+          <li><a href="{{ "/page/contact/" | relURL }}">A proper letter</a></li>
         </ul>
       </div>
     </div>
     <div class="colophon">
-      <span>© {{ now.Format "2006" }} {{ site.Title }}. All rights reserved.</span>
+      <span>© {{ now.Format "2006" }} {{ site.Title }} · ipap.tech</span>
       <span>
         {{ with site.Params.author.name }}{{ if site.Params.author.website }}<a href="https://{{ site.Params.author.website }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}{{ end }}
       </span>

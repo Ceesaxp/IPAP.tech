@@ -5,23 +5,25 @@
     <h1>{{ .Title }}</h1>
     {{ with .Params.subtitle }}<p class="lead">{{ . }}</p>{{ end }}
     {{ if and (eq .Type "post") (not .Date.IsZero) }}
-      <p class="muted" style="margin-top: 1rem;">
+      <p class="label-mono" style="margin-top: 1.5rem;">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-        {{ if .ReadingTime }} · {{ .ReadingTime }} min read{{ end }}
+        {{ if .ReadingTime }} &nbsp;·&nbsp; {{ .ReadingTime }} min read{{ end }}
       </p>
     {{ end }}
   </div>
 </header>
 
-<article class="section">
+<div class="asterism"></div>
+
+<article class="section section-tight">
   <div class="container">
     <div class="article">
       {{ .Content }}
     </div>
 
     {{ if .Params.tags }}
-    <div class="container-narrow" style="margin-top: 2rem; text-align: center;">
-      {{ range .Params.tags }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" style="margin: 0 0.4rem;">#{{ . }}</a>{{ end }}
+    <div class="container-narrow" style="margin-top: 3rem; text-align: center;">
+      {{ range .Params.tags }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="label-mono" style="margin: 0 0.6rem;">#{{ . }}</a>{{ end }}
     </div>
     {{ end }}
   </div>
@@ -30,12 +32,12 @@
 {{ if ne .RelPermalink "/page/contact/" }}
 <section class="section">
   <div class="container">
-    <div class="cta-banner">
-      <div>
-        <h2>Got a stuck transformation?</h2>
-        <p>One conversation. We'll tell you whether it's worth doing — and whether we're the right team.</p>
+    <div class="signoff">
+      <h2>Got a stuck transformation?</h2>
+      <div class="sign">
+        <p>One conversation. We&rsquo;ll tell you within a week whether we&rsquo;re the right team &mdash; and whether it&rsquo;s worth doing at all.</p>
+        <a class="btn btn-primary btn-arrow" href="{{ "/page/contact/" | relURL }}">Write to us</a>
       </div>
-      <a class="btn btn-primary btn-arrow" href="{{ "/page/contact/" | relURL }}">Start the conversation</a>
     </div>
   </div>
 </section>

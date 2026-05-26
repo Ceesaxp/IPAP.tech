@@ -1,10 +1,8 @@
 <nav class="site-nav" aria-label="Primary">
   <div class="container">
     <a href="{{ "/" | relURL }}" class="brand" aria-label="{{ site.Title }} home">
-      {{- with site.Params.logo -}}
-        <img src="{{ . | relURL }}" alt="{{ site.Title }}" loading="eager" decoding="async">
-      {{- end -}}
-      <span>{{ site.Title }}</span>
+      <span class="mark" aria-hidden="true"></span>
+      <span class="brand-name">ipap</span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>Menu</button>
     <ul class="nav-links" id="nav-links">
