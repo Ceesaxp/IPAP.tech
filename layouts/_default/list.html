@@ -13,26 +13,22 @@
       <div class="article" style="background: transparent; border: 0; padding: 0;">{{ . }}</div>
     {{ end }}
 
-    {{ $pages := where site.RegularPages "Type" "post" }}
+    {{ $pages := .Pages }}
+    {{ if .IsHome }}{{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}{{ end }}
     {{ if $pages }}
     <div class="posts-list" style="margin-top: 2rem;">
       {{ range $pages.ByDate.Reverse }}
         <a class="post-card" href="{{ .RelPermalink }}">
           <span class="date">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>{{ end }}
           </span>
-          <h3>{{ .Title }}</h3>
-          {{ with .Params.subtitle }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify | truncate 180 }}</p>{{ end }}
+          <div>
+            <h3>{{ .Title }}</h3>
+            {{ with .Params.subtitle }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify | truncate 180 }}</p>{{ end }}
+          </div>
         </a>
       {{ end }}
     </div>
-    {{ else }}
-      {{ range .Pages }}
-        <a class="post-card" href="{{ .RelPermalink }}">
-          <h3>{{ .Title }}</h3>
-          {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
-        </a>
-      {{ end }}
     {{ end }}
   </div>
 </section>

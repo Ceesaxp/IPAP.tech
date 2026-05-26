@@ -10,8 +10,8 @@ Most consulting wants to become part of your furniture. We plan our exit from da
 <div class="editorial" style="margin: 4rem 0;">
 
 <article class="editorial-block">
-  <div class="numeral">I</div>
-  <div>
+  <div class="numeral" aria-hidden="true">1</div>
+  <div class="body-wrap">
     <h3>The reality check.</h3>
     <div class="body">
       <p><em>What we believe:</em> you already have most of the answers. They&rsquo;re buried under politics, assumptions and daily firefighting &mdash; not missing.</p>
@@ -23,8 +23,8 @@ Most consulting wants to become part of your furniture. We plan our exit from da
 </article>
 
 <article class="editorial-block">
-  <div class="numeral">II</div>
-  <div>
+  <div class="numeral" aria-hidden="true">2</div>
+  <div class="body-wrap">
     <h3>The unleashing.</h3>
     <div class="body">
       <p><em>What we believe:</em> your people want to excel. They&rsquo;re trapped in broken systems and unclear expectations &mdash; not in absence of talent.</p>
@@ -36,8 +36,8 @@ Most consulting wants to become part of your furniture. We plan our exit from da
 </article>
 
 <article class="editorial-block">
-  <div class="numeral">III</div>
-  <div>
+  <div class="numeral" aria-hidden="true">3</div>
+  <div class="body-wrap">
     <h3>The hand-off.</h3>
     <div class="body">
       <p><em>What we believe:</em> the best transformations are self-sustaining. If we&rsquo;re still needed in month six, something earlier in the engagement went wrong.</p>
